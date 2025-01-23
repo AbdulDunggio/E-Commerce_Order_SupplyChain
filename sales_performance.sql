@@ -9,7 +9,7 @@ where order_status = 'delivered'
 group by seller_id
 order by selling_rate desc
 
---price class --
+-- analysis of the relationship between price level and late delivery of products --
 
 WITH sorted_prices AS (
     SELECT 
@@ -25,21 +25,28 @@ percentile AS (
     FROM sorted_prices
 ),
 price_class as (SELECT 
+    oi.order_id,
     oi.price,
     CASE
-        WHEN oi.price <= p.b_affordable THEN 'Affordable'
-        WHEN oi.price <= p.b_midrange THEN 'Mid-range'
-        ELSE 'Pricey'
+        WHEN oi.price <= p.b_affordable THEN 'Low'
+        WHEN oi.price <= p.b_midrange THEN 'Medium'
+        ELSE 'High'
     END AS price_category
-FROM order_items oi, percentile p)
+FROM order_items oi, percentile p),
 
-select
-count(oi.price),
-pc.price_category
+rank_delay as (select
+count(oi.order_id) as banyak_delay,
+pc.price_category,
+rank() over(order by count(oi.order_id) desc) as rank_delay
 from order_items oi
 join price_class pc
-on oi.price = pc.price
+on oi.order_id = pc.order_id
 join orders o
 on oi.order_id = o.order_id
 where order_delivered_timestamp >= order_estimated_delivery_date
+group by pc.price_category
+)
 
+select price_category,
+banyak_delay
+from rank_delay
