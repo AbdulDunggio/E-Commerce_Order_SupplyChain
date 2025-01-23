@@ -50,3 +50,10 @@ group by pc.price_category
 select price_category,
 banyak_delay
 from rank_delay
+
+-- calculate the highest average shipping charges based on seller --
+select seller_id,
+avg(shipping_charges) as avg_shipment
+from order_items
+group by seller_id
+order by avg_shipment desc
