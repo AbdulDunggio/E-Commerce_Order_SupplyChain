@@ -241,5 +241,22 @@
 
 8.2
 <p align ='center'>
-<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/.PNG>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/highest_selling_rate_code.PNG>
+</p>
+
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/highest_selling_rate_output.PNG>
+</p>
+
+8.3
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/purchase_value_payment_type_relation.PNG>
+</p>
+
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/purchase_value_payment_type_relation_code2.PNG>
+</p>
+
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/purchase_value_payment_type_relation_output.PNG>
 </p>
