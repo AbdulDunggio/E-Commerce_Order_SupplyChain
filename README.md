@@ -80,7 +80,13 @@
 </p>
 
 2.3
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/highest_avg_shipping_charge_code.PNG>
+</p>
 
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/highest_avg_shipping_charge_output.PNG>
+</p>
 
 3.1
 <p align ='center'>
@@ -92,3 +98,68 @@
 </p>
 
 3.2
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/product_weight_shipping_relation.PNG>
+</p>
+
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/product_weight_shipping_relation_code2.PNG>
+</p>
+
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/product_weight_shipping_relation_output.PNG>
+</p>
+
+3.3
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/product_trend_2016_code.PNG>
+</p>
+
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/product_trend_2016_output.PNG>
+</p>
+
+4.1
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/most_payment_type_code.PNG>
+</p>
+
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/most_payment_type_output.PNG>
+</p>
+
+4.2
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/payment_type_ontime_deliv_code.PNG>
+</p>
+
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/payment_type_ontime_deliv_output.PNG>
+</p>
+
+5.1
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/most_higher_buy_bycity_code.PNG>
+</p>
+
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/most_higher_buy_bycity_output.PNG>
+</p>
+
+5.2
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/average_region_purch_code.PNG>
+</p>
+
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/average_region_purch_output.PNG>
+</p>
+
+5.3
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/cancelation_rate_region_code.PNG>
+</p>
+
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/cancelation_rate_region_output.PNG>
+</p>
