@@ -67,3 +67,28 @@
 </p>
 
 2.2
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/price_level_late_deliv_relation_code1.PNG>
+</p>
+
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/price_level_late_deliv_relation_code2.PNG>
+</p>
+
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/price_level_late_deliv_relation_output.PNG>
+</p>
+
+2.3
+
+
+3.1
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/most_selling_product_code.PNG>
+</p>
+
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/most_selling_product_output.PNG>
+</p>
+
+3.2
