@@ -7,7 +7,7 @@ This dataset consists of five tables including customers, orders, order items, p
 ## Table of Contents
 The analysis that will be carried out includes the following:
 - [Delivery performance analysis](#delivery-performance-analysis)
-- Seller Performance Analysis
+- [Seller Performance Analysis](#seller-performance-analysis)
 - Product Category Trends
 - Payment method analysis
 - Customer behavior analysis by region
@@ -59,6 +59,7 @@ The first analysis carried out is to analyze the performance of product delivery
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/percentage_on_time_delivery_code.PNG>
 </p>
 The above command outputs the percentage value of orders received by the customer. As shown in the following figure, the percentage value of orders that arrived is 90.34%.
+
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/output_on_time_delivery.PNG>
 </p>
@@ -75,25 +76,33 @@ The output given from the command in the image above gives the result as shown b
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/city_highest_delay_output.PNG>
 </p>
 
-1.3
+The next analysis aims to determine the average delivery time of each product category. The delivery time is known from the difference between the date the product is received by the customer and the date the product is approved for delivery. The command to provide the expected results is shown in the following figure.
+
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/avg_delivery_product_category.PNG>
 </p>
+
+The higher the average delivery time indicates that the product has a long duration to be delivered since it was purchased through e-commerce. The output provided shows that the office furniture product category has the longest average delivery time recording an average time of 24 days.
 
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/avg_delivery_product_category_output.PNG>
 </p>
 
-2.1
+### Sales Performance Analysis
+In this analysis, the author wants to know the sales performance of various parameters. The first parameter is the analysis of the total revenue owned by each seller. Total revenue is calculated from the total price of products included in the order items table. the following figure shows the command to get the expected results.
+
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/highest_selling_rate_code.PNG>
 </p>
+
+Unfortunately, this dataset does not provide a table containing the data of sellers involved in transaction activities in this e-commerce, so the output provided is only the unique seller_id code and total revenue.
 
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/highest_selling_rate_output.PNG>
 </p>
 
-2.2
+The second parameter analyzed is to analyze the price level of product delivery delays. The price level in this dataset is not specified so the author performs manual classification on the price level. The classification done is quite simple from sorting the prices from smallest to largest, then grouping them into three groups using percentiles, namely small, medium, and large price levels. The common table expression feature is very helpful for this manual classification process as shown in the following figure.
+
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/price_level_late_deliv_relation_code1.PNG>
 </p>
@@ -102,29 +111,38 @@ The output given from the command in the image above gives the result as shown b
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/price_level_late_deliv_relation_code2.PNG>
 </p>
 
+The results show that the difference in the number of product delivery delays to the price level is not very significant. It can be seen in the following figure that the medium price level has a total of 2275 delays following the low and high price levels with a difference that is not too far away.
+
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/price_level_late_deliv_relation_output.PNG>
 </p>
 
-2.3
+The third parameter we want to know is the average additional shipping cost paid by each seller. The following figure shows the command to get the expected results.
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/highest_avg_shipping_charge_code.PNG>
 </p>
+
+The output given in the above command gives the results as shown below. Unavailability of custom data containing seller data displays the average shipping surcharge by each seller_id.
 
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/highest_avg_shipping_charge_output.PNG>
 </p>
 
-3.1
+### Product Trend
+The next analysis aims to determine the trend of the product category. This analysis consists of several parameters. The first parameter is the product category that has the highest sales rate. The command is performed accordingly as shown in the following figure.
+
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/most_selling_product_code.PNG>
 </p>
+
+The output of the above command is shown in the following image. The product category that gets the highest sales is the toy category by reaching 48439 products.
 
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/most_selling_product_output.PNG>
 </p>
 
-3.2
+The next parameter is to determine the relationship between product weight and freight cost. As in the previous analysis at the price level, there is no specific classification of product weight, making the author manually classify it using a common table expression as shown in the following figure.
+
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/product_weight_shipping_relation.PNG>
 </p>
@@ -133,20 +151,26 @@ The output given from the command in the image above gives the result as shown b
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/product_weight_shipping_relation_code2.PNG>
 </p>
 
+The output of the above command is shown in the following image. It can be concluded that the weight of the product does not significantly affect the shipping cost.
+
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/product_weight_shipping_relation_output.PNG>
 </p>
 
-3.3
+The next parameter is to know the number of product categories sold in a certain period of time. In this case, the author wants to know the trend of product categories in 2016. If you want to know the trend in other years, the where clause in the command in the following figure can be adjusted according to the year you want to know the product category trend.
+
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/product_trend_2016_code.PNG>
 </p>
+
+Based on the command executed in the figure above, it can be seen that the product category that has a high trend is the toy category followed by the perfume category.
 
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/product_trend_2016_output.PNG>
 </p>
 
-4.1
+### Payment Method
+
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/most_payment_type_code.PNG>
 </p>
