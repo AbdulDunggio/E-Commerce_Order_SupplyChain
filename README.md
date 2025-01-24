@@ -163,3 +163,83 @@
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/cancelation_rate_region_output.PNG>
 </p>
+
+6.1 
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/product_weight_shipping_relation.PNG>
+</p>
+
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/product_weight_shipping_relation_code2.PNG>
+</p>
+
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/product_weight_shipping_relation_output.PNG>
+</p>
+
+6.2
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/productdim_shipping_relation_code.PNG>
+</p>
+
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/productdim_shipping_relation_code2.PNG>
+</p>
+
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/productdim_shipping_relation_output.PNG>
+</p>
+
+6.3
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/most_product_by_avg_dim_code.PNG>
+</p>
+
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/most_product_by_avg_dim_output.PNG>
+</p>
+
+7.1
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/total_canceled_product_code.PNG>
+</p>
+
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/total_canceled_product_output.PNG>
+</p>
+
+7.2
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/diff_day_order_status_code.PNG>
+</p>
+
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/diff_day_order_status_code2.PNG>
+</p>
+
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/diff_day_order_status_output.PNG>
+</p>
+
+7.3
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/order_status_period_2016.PNG>
+</p>
+
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/order_status_period_2016_output.PNG>
+</p>
+
+8.1
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/avg_amount_value_by_customer_code.PNG>
+</p>
+
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/avg_amount_value_by_customer_output.PNG>
+</p>
+
+8.2
+<p align ='center'>
+<img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/.PNG>
+</p>
