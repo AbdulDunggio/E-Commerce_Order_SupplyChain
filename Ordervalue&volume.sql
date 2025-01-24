@@ -27,7 +27,7 @@ limit 1
 WITH sort_value AS (
     SELECT
         payment_value,
-        order_id, -- Tambahkan order_id di sini
+        order_id,
         ROW_NUMBER() OVER (ORDER BY payment_value) AS row_num,
         COUNT(*) OVER () AS total_rows
     FROM payments
@@ -41,7 +41,7 @@ value_ctg AS (
 value_class AS (
     SELECT
         sv.payment_value,
-        sv.order_id, -- Pastikan order_id diteruskan
+        sv.order_id,
         CASE 
             WHEN sv.payment_value <= vc.v_low THEN 'Low'
             WHEN sv.payment_value <= vc.v_mid THEN 'Normal'
