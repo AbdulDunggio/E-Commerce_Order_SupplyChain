@@ -3,5 +3,5 @@
 ## Ideation
 
 <p align ='center'>
-<img src = https://github.com/AbdulDunggio/Nike_Sales_2024_Report/blob/main/img-src/TheDashboard.png>
+<img src = img-src/create table1.PNG>
 </p>
