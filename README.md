@@ -282,16 +282,21 @@ The results of the above order show that the products purchased are fairly evenl
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/most_product_by_avg_dim_output.PNG>
 </p>
 
-7.1
+### Order Status Analysis
+This analysis focuses on the delivery status and looks at its effect on other aspects such as delivery time. There are three different parameters: knowing the number of orders that have canceled status, knowing the relationship between canceled products and purchase time, and the trend of delivery status every year.
+
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/total_canceled_product_code.PNG>
 </p>
+
+The first parameter is to calculate the number of canceled orders in the overall data. The command as shown above is executed to find out the result. The results show that the number of canceled orders shown in the figure below is 409 orders.
 
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/total_canceled_product_output.PNG>
 </p>
 
-7.2
+The next parameter is to find out whether the cancellation factor is caused by the time difference between order payment and order approval. Then the results of the difference are classified manually and divided into three classifications, namely fast, normal, and slow. The command shown is as shown in the figure below.
+
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/diff_day_order_status_code.PNG>
 </p>
@@ -300,11 +305,14 @@ The results of the above order show that the products purchased are fairly evenl
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/diff_day_order_status_code2.PNG>
 </p>
 
+The results show that there is a significant difference between each classification. The highest number of canceled orders belongs to products where the difference between purchase time and approval time is fast.
+
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/diff_day_order_status_output.PNG>
 </p>
 
-7.3
+The next parameter is to calculate the trend of the number of status orders that occur during a certain period. In this case, the author wants to know the trend of order status in 2016. The results show that in 2016, this E-commerce successfully completed 257 orders that were delivered to customers.
+
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/order_status_period_2016.PNG>
 </p>
@@ -313,6 +321,7 @@ The results of the above order show that the products purchased are fairly evenl
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/order_status_period_2016_output.PNG>
 </p>
 
+### Order value and volume analysis
 8.1
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/avg_amount_value_by_customer_code.PNG>
