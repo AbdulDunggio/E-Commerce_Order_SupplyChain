@@ -189,40 +189,55 @@ The next parameter that the author wants to know is the relationship between pay
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/payment_type_ontime_deliv_code.PNG>
 </p>
 
-The output generated in the figure above shows that most of the products delivered on time are dominated by the use of credit card payment methods. This significant difference factor is caused by the dominant use of credit card payment methods such as the results of the analysis in the first parameter. However, when comparing the percentage between the second parameter and the first parameter, the payment method using vouchers provides the highest percentage **91%** compared to other payment methods. 
+The output generated in the command above shows that most of the products delivered on time are dominated by the use of credit card payment methods. This significant difference factor is caused by the dominant use of credit card payment methods such as the results of the analysis in the first parameter. However, when comparing the percentage between the second parameter and the first parameter, the payment method using vouchers provides the highest percentage **91%** compared to other payment methods. 
 
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/payment_type_ontime_deliv_output.PNG>
 </p>
 
-5.1
+### Customer Behaviour Analysis by Region
+The next analysis is to determine customer behavior based on the customer region. In this analysis, the author divides it into three parameters, namely finding the region that has the highest number of customers, knowing the average customer expenditure from each region, and finding the city that has the highest cancellation rate.
+
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/most_higher_buy_bycity_code.PNG>
 </p>
+
+The first analysis parameter is to find the city with the highest number of customers. The highest number of customers in this analysis, the author provides a criterion that customers are buyers whose products are purchased to the buyer's hands so that buyers whose products do not arrive or are canceled are excluded from this parameter.
 
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/most_higher_buy_bycity_output.PNG>
 </p>
 
-5.2
+The results of the first parameter are shown in the figure above, namely the region that has the highest number of customers is Sao Paulo with a total of 14020 customers.
+
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/average_region_purch_code.PNG>
 </p>
+
+The next parameter analyzed is to know the average customer expenditure of each region. Using the command as shown above gives the results as shown below.
 
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/average_region_purch_output.PNG>
 </p>
 
-5.3
+The results show that the region that has the highest average expenditure is owned by the Itagiba region, which is 3899 dollars per purchase. The Sao Paulo region, which has the highest number of customers, is not shown in the results above. The amount of average expenditure also affects the number of customers so it is likely that the amount spent by the Sao Paulo region tends to be smaller than the regions seen in the figure above.
+
+The next parameter is to find the region that has the highest purchase cancellation rate. Using the command shown in the figure, it counts the number of purchases with canceled delivery status restrictions using the where clause.
+
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/cancelation_rate_region_code.PNG>
 </p>
+
+The result of the command in the figure above shows that the region that has the highest cancellation rate is the Sao Paulo region. Although, it has the status as the highest cancellation rate, the value is very small when compared to the total purchases that have a successful delivery status in the São Paulo region, which is only 0.7%.
 
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/cancelation_rate_region_output.PNG>
 </p>
 
-6.1 
+### Analyze product size against shipping cost
+
+The next analysis aims to determine the effect of product size and dimensions on the delivery process. This analysis consists of three parameters, namely knowing the relationship between the weight of the goods and the amount of shipping costs, the effect of the volume of goods on shipping costs as well, and knowing the number of products sold based on the volume of products.
+
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/product_weight_shipping_relation.PNG>
 </p>
@@ -230,6 +245,8 @@ The output generated in the figure above shows that most of the products deliver
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/product_weight_shipping_relation_code2.PNG>
 </p>
+
+As in the product weight classification in the product trend analysis, the command is the same to manually classify the product weight using the percentile method in statistics. The above command uses CTE for item weight classification and relates it to the average shipping cost.
 
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/product_weight_shipping_relation_output.PNG>
