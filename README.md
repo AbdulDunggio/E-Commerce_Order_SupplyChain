@@ -157,7 +157,7 @@ The output of the above command is shown in the following image. It can be concl
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/product_weight_shipping_relation_output.PNG>
 </p>
 
-The next parameter is to know the number of product categories sold in a certain period of time. In this case, the author wants to know the trend of product categories in 2016. If you want to know the trend in other years, the where clause in the command in the following figure can be adjusted according to the year you want to know the product category trend.
+The next parameter is to know the number of product categories sold in a certain period of time. In this case, the author wants to know the trend of product categories in 2016. If you want to know the trend in other years, the **where** clause in the command in the following figure can be adjusted according to the year you want to know the product category trend.
 
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/product_trend_2016_code.PNG>
@@ -171,18 +171,25 @@ Based on the command executed in the figure above, it can be seen that the produ
 
 ### Payment Method
 
+This analysis aims to determine the trends in the use of payment methods. Some of the parameters analyzed are to find out the most frequently used payment methods and the relationship between payment types and product delivery times.
+
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/most_payment_type_code.PNG>
 </p>
+
+The first parameter analyzed is the most frequently used payment method in the transaction process. Using the command as shown in the figure above, the output shown in the figure below can be found that the most frequently used payment method is credit card payment.
 
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/most_payment_type_output.PNG>
 </p>
 
-4.2
+The next parameter that the author wants to know is the relationship between payment methods and product delivery timeliness. The command below shows the command to combine two different tables, namely payments and orders using join (inner join) with the limit of counting products that arrive on time.
+
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/payment_type_ontime_deliv_code.PNG>
 </p>
+
+The output generated in the figure above shows that most of the products delivered on time are dominated by the use of credit card payment methods. This significant difference factor is caused by the dominant use of credit card payment methods such as the results of the analysis in the first parameter. However, when comparing the percentage between the second parameter and the first parameter, the payment method using vouchers provides the highest percentage **91%** compared to other payment methods. 
 
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/payment_type_ontime_deliv_output.PNG>
