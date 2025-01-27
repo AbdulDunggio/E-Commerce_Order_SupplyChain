@@ -252,7 +252,8 @@ As in the product weight classification in the product trend analysis, the comma
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/product_weight_shipping_relation_output.PNG>
 </p>
 
-6.2
+The results of the above order show that the effect of the weight of goods does not have a significant effect on the cost of shipping goods. The insignificance of the data may be due to the manual classification of the weights as it does not take into account the distribution of the data such as the standard deviation or the variance of the weights. If there were clear classification instructions for the weight criteria, the results would most likely be different.
+
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/productdim_shipping_relation_code.PNG>
 </p>
@@ -261,14 +262,21 @@ As in the product weight classification in the product trend analysis, the comma
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/productdim_shipping_relation_code2.PNG>
 </p>
 
+Manual classification was also performed on the second parameter, which was to determine the relationship between product dimensions and average product shipping costs. In product dimensions, the author refers to the volume of each product and all products are assumed to be blocks so that the volume is obtained from multiplying the length, width, and height of the product.
+
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/productdim_shipping_relation_output.PNG>
 </p>
 
-6.3
+An insignificant relationship is also given to the relationship between the volume of goods and the average shipping cost due to this manual classification method.
+
+This parameter uses the product volume classification in the second parameter. In this parameter, the expected analysis result is to know the number of products purchased based on product volume. The distinct clause is used to avoid the same product being counted more than once.
+
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/most_product_by_avg_dim_code.PNG>
 </p>
+
+The results of the above order show that the products purchased are fairly evenly distributed by product volume. 
 
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/most_product_by_avg_dim_output.PNG>
