@@ -8,12 +8,12 @@ This dataset consists of five tables including customers, orders, order items, p
 The analysis that will be carried out includes the following:
 - [Delivery performance analysis](#delivery-performance-analysis)
 - [Seller Performance Analysis](#seller-performance-analysis)
-- Product Category Trends
-- Payment method analysis
-- Customer behavior analysis by region
-- Analyze product size against shipping cost
-- Order status analysis
-- Order value and volume analysis.
+- [Product Category Trends](#product-category-trends)
+- [Payment Method Analysis](#payment-method-analysis)
+- [Customer behavior analysis by region](#customer-behavior-analysis-by-region)
+- [Analyze product size against shipping cost](#analyze-product-size-against-shipping-cost)
+- [Order status analysis](#order-status-analysis)
+- [Order value and volume analysis](#order-value-and-volume-analysis)
 
 This dataset is downloaded in csv format, in order to be processed using sql, this dataset must first be imported into a sql database.
 ### Import CSV files to MySQL
@@ -128,7 +128,7 @@ The output given in the above command gives the results as shown below. Unavaila
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/highest_avg_shipping_charge_output.PNG>
 </p>
 
-### Product Trend
+### Product Category Trends
 The next analysis aims to determine the trend of the product category. This analysis consists of several parameters. The first parameter is the product category that has the highest sales rate. The command is performed accordingly as shown in the following figure.
 
 <p align ='center'>
@@ -169,7 +169,7 @@ Based on the command executed in the figure above, it can be seen that the produ
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/product_trend_2016_output.PNG>
 </p>
 
-### Payment Method
+### Payment Method Analysis
 
 This analysis aims to determine the trends in the use of payment methods. Some of the parameters analyzed are to find out the most frequently used payment methods and the relationship between payment types and product delivery times.
 
@@ -322,25 +322,31 @@ The next parameter is to calculate the trend of the number of status orders that
 </p>
 
 ### Order value and volume analysis
-8.1
+
+The last analysis conducted aims to determine the value of the order to the customer and other aspects. There are three parameters in this analysis including calculating the average and total payment value of customers, and the effect of payment size on the payment method used.
+
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/avg_amount_value_by_customer_code.PNG>
 </p>
+
+The first parameter is to calculate the average payment value of each customer using the command shown in the figure above, giving the results shown in the figure below. There is no customer name data so the results shown are only customer_id.
 
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/avg_amount_value_by_customer_output.PNG>
 </p>
 
-8.2
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/highest_selling_rate_code.PNG>
 </p>
+
+The next parameter is to know the total payment value incurred by each seller. The command executed is shown in the image above and the results given are as shown below.
 
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/highest_selling_rate_output.PNG>
 </p>
 
-8.3
+The last parameter in this analysis is to determine the relationship between the amount of payment value and the payment method used. The first step is to manually classify the payment value and relate it to the payment method used and see the total payment used in the classification. 
+
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/purchase_value_payment_type_relation.PNG>
 </p>
@@ -349,6 +355,12 @@ The next parameter is to calculate the trend of the number of status orders that
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/purchase_value_payment_type_relation_code2.PNG>
 </p>
 
+Results show that payment values classified as high value categories use credit card payment methods. When viewed further, the number of payment values using the credit card method is in the top three highest payment values so it can be seen that most transactions whether at low, normal, or high payment values, customers still use the credit card method as the best method.
+
 <p align ='center'>
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/purchase_value_payment_type_relation_output.PNG>
 </p>
+
+## Conclusion
+There are 8 analysis ideas carried out in this data analysis. There are many more analysis ideas that can be explored and can be developed and it is likely that the information from this chapter will change over time.
+
