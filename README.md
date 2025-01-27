@@ -88,7 +88,7 @@ The higher the average delivery time indicates that the product has a long durat
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/avg_delivery_product_category_output.PNG>
 </p>
 
-### Sales Performance Analysis
+### Seller Performance Analysis
 In this analysis, the author wants to know the sales performance of various parameters. The first parameter is the analysis of the total revenue owned by each seller. Total revenue is calculated from the total price of products included in the order items table. the following figure shows the command to get the expected results.
 
 <p align ='center'>
@@ -195,7 +195,7 @@ The output generated in the command above shows that most of the products delive
 <img src = https://github.com/AbdulDunggio/E-Commerce_Order_SupplyChain/blob/main/img-src/payment_type_ontime_deliv_output.PNG>
 </p>
 
-### Customer Behaviour Analysis by Region
+### Customer Behavior Analysis by Region
 The next analysis is to determine customer behavior based on the customer region. In this analysis, the author divides it into three parameters, namely finding the region that has the highest number of customers, knowing the average customer expenditure from each region, and finding the city that has the highest cancellation rate.
 
 <p align ='center'>
